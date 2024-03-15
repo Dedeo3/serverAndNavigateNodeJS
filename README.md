@@ -1,2 +1,2 @@
 # serverAndNavigateNodeJS
-## this repo has been create to learn node js and made simply project
+## this repo has been created to learn node js and make simple project

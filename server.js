@@ -1,13 +1,3 @@
-// var http = require("http");
-
-// http.createServer(function(req, res) {
-//     let status = 200;
-
-//     res.writeHead(status, {"Content-Type": "text/html"});
-
-//     res.write("wkkww");
-//     res.end(); 
-// }).listen(8080);
 
 const http = require("http");
 
@@ -15,7 +5,6 @@ const http = require("http");
 const fs = require("fs");
 
 const server = http.createServer((req, res) => {
-    // Check the URL of the request
     switch (req.url) {
         case "/":
             fs.readFile("project/index.html", (err, data) => {
